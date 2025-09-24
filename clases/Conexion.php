@@ -2,9 +2,9 @@
     class Conexion {
         public function conectar(){
             $host = "localhost";
-            $usuario = "root";//root
-            $password = "";
-            $base = "agenda";
+            $usuario = "backend";//root
+            $password = "backend2025";
+            $base = "cesar_agenda";
             $conexion = mysqli_connect(
                 $host, $usuario, $password, $base
             );
